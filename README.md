@@ -92,9 +92,9 @@ Settings are automatically saved and include:
 
 ```
 qt-application-hexapod/
-├── components/         # QML interface components
-├── icons/             # Application icons
-├── styles/            # QSS style sheets
+├── components/       # QML interface components
+├── icons/            # Application icons
+├── styles/           # QSS style sheets
 ├── utils/            # Server installation scripts
 │   ├── install.sh    # BeagleBone installation script
 │   └── server.py     # Python test server
@@ -122,4 +122,4 @@ qt-application-hexapod/
 
 ## Support
 
-For support, please contact us at trong552003@gmail.com or visit my [GitHub Issues page](https://github.com/NguyenTrongPhuc552003/qt-application-hexapod/issues).
+For support, please contact us at trong552003@gmail.com or visit our [GitHub Issues page](https://github.com/NguyenTrongPhuc552003/qt-application-hexapod/issues).
