@@ -2,3 +2,4 @@
 # and can be ignored.
 *.o
 *.d
+build/
