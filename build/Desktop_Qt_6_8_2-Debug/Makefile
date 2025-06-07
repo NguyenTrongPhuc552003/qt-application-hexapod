@@ -75,239 +75,239 @@ OBJECTS       = main.o \
 		moc_hexapodconnection.o \
 		moc_hexapodvisualization.o \
 		moc_hexapodcontext.o
-DIST          = /Qt/6.8.2/gcc_64/mkspecs/features/spec_pre.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/common/unix.conf \
-		/Qt/6.8.2/gcc_64/mkspecs/common/linux.conf \
-		/Qt/6.8.2/gcc_64/mkspecs/common/sanitize.conf \
-		/Qt/6.8.2/gcc_64/mkspecs/common/gcc-base.conf \
-		/Qt/6.8.2/gcc_64/mkspecs/common/gcc-base-unix.conf \
-		/Qt/6.8.2/gcc_64/mkspecs/common/g++-base.conf \
-		/Qt/6.8.2/gcc_64/mkspecs/common/g++-unix.conf \
-		/Qt/6.8.2/gcc_64/mkspecs/qconfig.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_ext_libjpeg.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_ext_libpng.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_ext_openxr_loader.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_charts.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_charts_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_chartsqml.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_chartsqml_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_concurrent.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_concurrent_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_core.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_core_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_dbus.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_dbus_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_designer.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_designer_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_designercomponents_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_devicediscovery_support_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_eglfs_kms_gbm_support_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_example_icons_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_examples_asset_downloader_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_fb_support_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_gui.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_gui_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_harfbuzz_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_help.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_help_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_input_support_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_jpeg_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_kms_support_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsanimation.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsanimation_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsfolderlistmodel.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsfolderlistmodel_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsplatform.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsplatform_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsqmlmodels.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsqmlmodels_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssettings.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssettings_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssharedimage.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssharedimage_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labswavefrontmesh.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labswavefrontmesh_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_linguist.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimedia.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimedia_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediaquick_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediatestlibprivate_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_network.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_network_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_opengl.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_opengl_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_openglwidgets.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_openglwidgets_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_packetprotocol_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_png_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_printsupport.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_printsupport_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qdoccatch_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qdoccatchconversions_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qdoccatchgenerators_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qml.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qml_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlassetdownloader.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlassetdownloader_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcompiler.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcompiler_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcore.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcore_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmldebug_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmldom_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlintegration.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlintegration_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmllocalstorage.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmllocalstorage_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlls_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmeta.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmeta_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlnetwork.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlnetwork_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltest.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltest_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltoolingsettings_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltyperegistrar_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlxmllistmodel.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlxmllistmodel_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3d.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3d_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetutils.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetutils_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3deffects.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3deffects_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dglslparser_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpers.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpers_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpersimpl.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpersimpl_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3diblbaker.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3diblbaker_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticleeffects.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticleeffects_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticles.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticles_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dspatialaudio_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dxr.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dxr_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basic.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basic_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basicstyleimpl.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basicstyleimpl_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fluentwinui3styleimpl.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fluentwinui3styleimpl_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusion.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusion_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusionstyleimpl.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusionstyleimpl_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imagine.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imagine_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imaginestyleimpl.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imaginestyleimpl_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2impl.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2impl_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2material.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2material_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2materialstyleimpl.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2materialstyleimpl_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universal.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universal_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universalstyleimpl.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universalstyleimpl_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrolstestutilsprivate_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2quickimpl.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2quickimpl_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2utils.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2utils_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickeffects_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicklayouts.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicklayouts_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickparticles_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickshapes_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktestutilsprivate_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimeline.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimeline_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimelineblendtrees.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimelineblendtrees_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickvectorimage.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickvectorimage_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickvectorimagegenerator_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_shadertools.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_shadertools_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_spatialaudio.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_spatialaudio_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_sql.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_sql_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svg.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svg_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svgwidgets.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svgwidgets_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_testlib.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_testlib_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_tools_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_uiplugin.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_uitools.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_uitools_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_wayland_egl_client_hw_integration_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_waylandclient.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_waylandclient_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_waylandglobal_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_widgets.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_widgets_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_wl_shell_integration_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_xml.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_xml_private.pri \
-		/Qt/6.8.2/gcc_64/mkspecs/features/qt_functions.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/qt_config.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/linux-g++/qmake.conf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/spec_post.prf \
+DIST          = /home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/spec_pre.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/unix.conf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/linux.conf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/sanitize.conf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/gcc-base.conf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/gcc-base-unix.conf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/g++-base.conf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/g++-unix.conf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/qconfig.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_ext_libjpeg.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_ext_libpng.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_ext_openxr_loader.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_charts.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_charts_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_chartsqml.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_chartsqml_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_concurrent.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_concurrent_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_core.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_core_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_dbus.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_dbus_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_designer.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_designer_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_designercomponents_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_devicediscovery_support_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_eglfs_kms_gbm_support_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_example_icons_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_examples_asset_downloader_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_fb_support_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_gui.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_gui_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_harfbuzz_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_help.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_help_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_input_support_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_jpeg_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_kms_support_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsanimation.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsanimation_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsfolderlistmodel.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsfolderlistmodel_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsplatform.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsplatform_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsqmlmodels.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsqmlmodels_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssettings.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssettings_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssharedimage.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssharedimage_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labswavefrontmesh.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labswavefrontmesh_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_linguist.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimedia.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimedia_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediaquick_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediatestlibprivate_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_network.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_network_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_opengl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_opengl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_openglwidgets.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_openglwidgets_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_packetprotocol_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_png_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_printsupport.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_printsupport_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qdoccatch_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qdoccatchconversions_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qdoccatchgenerators_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qml.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qml_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlassetdownloader.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlassetdownloader_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcompiler.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcompiler_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcore.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcore_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmldebug_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmldom_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlintegration.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlintegration_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmllocalstorage.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmllocalstorage_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlls_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmeta.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmeta_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlnetwork.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlnetwork_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltest.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltest_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltoolingsettings_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltyperegistrar_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlxmllistmodel.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlxmllistmodel_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3d.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3d_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetutils.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetutils_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3deffects.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3deffects_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dglslparser_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpers.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpers_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpersimpl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpersimpl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3diblbaker.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3diblbaker_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticleeffects.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticleeffects_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticles.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticles_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dspatialaudio_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dxr.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dxr_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basic.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basic_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basicstyleimpl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basicstyleimpl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fluentwinui3styleimpl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fluentwinui3styleimpl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusion.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusion_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusionstyleimpl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusionstyleimpl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imagine.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imagine_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imaginestyleimpl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imaginestyleimpl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2impl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2impl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2material.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2material_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2materialstyleimpl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2materialstyleimpl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universal.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universal_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universalstyleimpl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universalstyleimpl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrolstestutilsprivate_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2quickimpl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2quickimpl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2utils.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2utils_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickeffects_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicklayouts.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicklayouts_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickparticles_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickshapes_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktestutilsprivate_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimeline.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimeline_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimelineblendtrees.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimelineblendtrees_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickvectorimage.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickvectorimage_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickvectorimagegenerator_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_shadertools.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_shadertools_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_spatialaudio.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_spatialaudio_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_sql.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_sql_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svg.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svg_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svgwidgets.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svgwidgets_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_testlib.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_testlib_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_tools_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_uiplugin.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_uitools.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_uitools_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_wayland_egl_client_hw_integration_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_waylandclient.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_waylandclient_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_waylandglobal_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_widgets.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_widgets_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_wl_shell_integration_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_xml.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_xml_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/qt_functions.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/qt_config.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/linux-g++/qmake.conf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/spec_post.prf \
 		../../.qmake.stash \
-		/Qt/6.8.2/gcc_64/mkspecs/features/exclusive_builds.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/toolchain.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/default_pre.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/resolve_config.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/default_post.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/qml_debug.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/warn_on.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/permissions.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/qt.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/resources_functions.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/resources.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/moc.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/unix/opengl.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/uic.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/unix/thread.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/qmake_use.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/file_copies.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/testcase_targets.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/exceptions.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/yacc.prf \
-		/Qt/6.8.2/gcc_64/mkspecs/features/lex.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/exclusive_builds.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/toolchain.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/default_pre.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/resolve_config.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/default_post.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/qml_debug.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/warn_on.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/permissions.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/qt.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/resources_functions.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/resources.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/moc.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/unix/opengl.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/uic.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/unix/thread.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/qmake_use.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/file_copies.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/testcase_targets.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/exceptions.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/yacc.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/lex.prf \
 		../../../../qtui.pro ../../mainwindow.h \
 		../../hexapodconnection.h \
 		../../hexapodprotocol.h \
@@ -329,501 +329,501 @@ first: all
 qtui: ui_mainwindow.h $(OBJECTS)  
 	$(LINK) $(LFLAGS) -o $(TARGET)  $(OBJECTS) $(OBJCOMP) $(LIBS)
 
-Makefile: ../../qtui.pro ../../../../Qt/6.8.2/gcc_64/mkspecs/features/spec_pre.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/common/unix.conf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/common/linux.conf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/common/sanitize.conf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/common/gcc-base.conf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/common/gcc-base-unix.conf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/common/g++-base.conf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/common/g++-unix.conf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/qconfig.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_ext_libjpeg.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_ext_libpng.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_ext_openxr_loader.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_charts.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_charts_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_chartsqml.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_chartsqml_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_concurrent.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_concurrent_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_core.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_core_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_dbus.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_dbus_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_designer.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_designer_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_designercomponents_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_devicediscovery_support_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_eglfs_kms_gbm_support_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_example_icons_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_examples_asset_downloader_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_fb_support_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_gui.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_gui_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_harfbuzz_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_help.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_help_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_input_support_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_jpeg_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_kms_support_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsanimation.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsanimation_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsfolderlistmodel.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsfolderlistmodel_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsplatform.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsplatform_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsqmlmodels.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsqmlmodels_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssettings.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssettings_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssharedimage.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssharedimage_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labswavefrontmesh.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labswavefrontmesh_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_linguist.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimedia.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimedia_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediaquick_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediatestlibprivate_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_network.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_network_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_opengl.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_opengl_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_openglwidgets.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_openglwidgets_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_packetprotocol_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_png_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_printsupport.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_printsupport_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qdoccatch_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qdoccatchconversions_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qdoccatchgenerators_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qml.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qml_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlassetdownloader.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlassetdownloader_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcompiler.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcompiler_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcore.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcore_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmldebug_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmldom_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlintegration.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlintegration_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmllocalstorage.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmllocalstorage_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlls_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmeta.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmeta_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlnetwork.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlnetwork_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltest.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltest_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltoolingsettings_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltyperegistrar_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlxmllistmodel.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlxmllistmodel_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3d.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3d_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetutils.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetutils_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3deffects.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3deffects_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dglslparser_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpers.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpers_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpersimpl.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpersimpl_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3diblbaker.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3diblbaker_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticleeffects.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticleeffects_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticles.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticles_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dspatialaudio_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dxr.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dxr_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basic.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basic_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basicstyleimpl.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basicstyleimpl_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fluentwinui3styleimpl.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fluentwinui3styleimpl_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusion.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusion_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusionstyleimpl.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusionstyleimpl_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imagine.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imagine_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imaginestyleimpl.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imaginestyleimpl_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2impl.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2impl_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2material.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2material_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2materialstyleimpl.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2materialstyleimpl_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universal.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universal_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universalstyleimpl.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universalstyleimpl_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrolstestutilsprivate_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2quickimpl.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2quickimpl_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2utils.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2utils_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickeffects_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicklayouts.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicklayouts_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickparticles_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickshapes_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktestutilsprivate_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimeline.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimeline_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimelineblendtrees.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimelineblendtrees_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickvectorimage.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickvectorimage_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickvectorimagegenerator_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_shadertools.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_shadertools_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_spatialaudio.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_spatialaudio_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_sql.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_sql_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svg.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svg_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svgwidgets.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svgwidgets_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_testlib.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_testlib_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_tools_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_uiplugin.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_uitools.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_uitools_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_wayland_egl_client_hw_integration_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_waylandclient.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_waylandclient_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_waylandglobal_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_widgets.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_widgets_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_wl_shell_integration_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_xml.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_xml_private.pri \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/qt_functions.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/qt_config.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/linux-g++/qmake.conf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/spec_post.prf \
+Makefile: ../../qtui.pro /home/strongfood/Qt/6.8.2/gcc_64/mkspecs/linux-g++/qmake.conf /home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/spec_pre.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/unix.conf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/linux.conf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/sanitize.conf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/gcc-base.conf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/gcc-base-unix.conf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/g++-base.conf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/g++-unix.conf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/qconfig.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_ext_libjpeg.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_ext_libpng.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_ext_openxr_loader.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_charts.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_charts_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_chartsqml.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_chartsqml_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_concurrent.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_concurrent_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_core.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_core_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_dbus.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_dbus_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_designer.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_designer_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_designercomponents_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_devicediscovery_support_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_eglfs_kms_gbm_support_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_example_icons_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_examples_asset_downloader_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_fb_support_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_gui.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_gui_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_harfbuzz_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_help.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_help_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_input_support_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_jpeg_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_kms_support_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsanimation.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsanimation_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsfolderlistmodel.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsfolderlistmodel_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsplatform.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsplatform_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsqmlmodels.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsqmlmodels_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssettings.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssettings_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssharedimage.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssharedimage_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labswavefrontmesh.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labswavefrontmesh_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_linguist.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimedia.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimedia_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediaquick_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediatestlibprivate_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_network.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_network_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_opengl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_opengl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_openglwidgets.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_openglwidgets_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_packetprotocol_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_png_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_printsupport.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_printsupport_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qdoccatch_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qdoccatchconversions_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qdoccatchgenerators_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qml.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qml_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlassetdownloader.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlassetdownloader_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcompiler.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcompiler_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcore.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcore_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmldebug_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmldom_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlintegration.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlintegration_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmllocalstorage.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmllocalstorage_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlls_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmeta.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmeta_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlnetwork.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlnetwork_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltest.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltest_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltoolingsettings_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltyperegistrar_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlxmllistmodel.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlxmllistmodel_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3d.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3d_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetutils.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetutils_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3deffects.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3deffects_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dglslparser_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpers.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpers_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpersimpl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpersimpl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3diblbaker.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3diblbaker_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticleeffects.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticleeffects_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticles.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticles_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dspatialaudio_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dxr.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dxr_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basic.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basic_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basicstyleimpl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basicstyleimpl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fluentwinui3styleimpl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fluentwinui3styleimpl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusion.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusion_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusionstyleimpl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusionstyleimpl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imagine.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imagine_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imaginestyleimpl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imaginestyleimpl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2impl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2impl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2material.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2material_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2materialstyleimpl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2materialstyleimpl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universal.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universal_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universalstyleimpl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universalstyleimpl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrolstestutilsprivate_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2quickimpl.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2quickimpl_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2utils.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2utils_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickeffects_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicklayouts.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicklayouts_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickparticles_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickshapes_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktestutilsprivate_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimeline.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimeline_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimelineblendtrees.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimelineblendtrees_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickvectorimage.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickvectorimage_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickvectorimagegenerator_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_shadertools.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_shadertools_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_spatialaudio.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_spatialaudio_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_sql.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_sql_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svg.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svg_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svgwidgets.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svgwidgets_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_testlib.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_testlib_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_tools_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_uiplugin.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_uitools.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_uitools_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_wayland_egl_client_hw_integration_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_waylandclient.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_waylandclient_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_waylandglobal_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_widgets.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_widgets_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_wl_shell_integration_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_xml.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_xml_private.pri \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/qt_functions.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/qt_config.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/linux-g++/qmake.conf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/spec_post.prf \
 		.qmake.stash \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/exclusive_builds.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/toolchain.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/default_pre.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/resolve_config.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/default_post.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/qml_debug.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/warn_on.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/permissions.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/qt.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/resources_functions.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/resources.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/moc.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/unix/opengl.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/uic.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/unix/thread.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/qmake_use.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/file_copies.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/testcase_targets.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/exceptions.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/yacc.prf \
-		../../../../Qt/6.8.2/gcc_64/mkspecs/features/lex.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/exclusive_builds.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/toolchain.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/default_pre.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/resolve_config.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/default_post.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/qml_debug.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/warn_on.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/permissions.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/qt.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/resources_functions.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/resources.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/moc.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/unix/opengl.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/uic.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/unix/thread.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/qmake_use.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/file_copies.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/testcase_targets.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/exceptions.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/yacc.prf \
+		/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/lex.prf \
 		../../qtui.pro \
 		../../res.qrc \
 		../../qml.qrc \
-		../../../../Qt/6.8.2/gcc_64/lib/libQt6Widgets.prl \
-		../../../../Qt/6.8.2/gcc_64/lib/libQt6QuickControls2.prl \
-		../../../../Qt/6.8.2/gcc_64/lib/libQt6Quick.prl \
-		../../../../Qt/6.8.2/gcc_64/lib/libQt6OpenGL.prl \
-		../../../../Qt/6.8.2/gcc_64/lib/libQt6Gui.prl \
-		../../../../Qt/6.8.2/gcc_64/lib/libQt6QmlMeta.prl \
-		../../../../Qt/6.8.2/gcc_64/lib/libQt6QmlModels.prl \
-		../../../../Qt/6.8.2/gcc_64/lib/libQt6QmlWorkerScript.prl \
-		../../../../Qt/6.8.2/gcc_64/lib/libQt6Qml.prl \
-		../../../../Qt/6.8.2/gcc_64/lib/libQt6Network.prl \
-		../../../../Qt/6.8.2/gcc_64/lib/libQt6Core.prl
+		/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6Widgets.prl \
+		/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6QuickControls2.prl \
+		/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6Quick.prl \
+		/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6OpenGL.prl \
+		/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6Gui.prl \
+		/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6QmlMeta.prl \
+		/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6QmlModels.prl \
+		/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6QmlWorkerScript.prl \
+		/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6Qml.prl \
+		/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6Network.prl \
+		/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6Core.prl
 	$(QMAKE) -o Makefile ../../qtui.pro -spec linux-g++ CONFIG+=debug CONFIG+=qml_debug
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/spec_pre.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/common/unix.conf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/common/linux.conf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/common/sanitize.conf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/common/gcc-base.conf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/common/gcc-base-unix.conf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/common/g++-base.conf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/common/g++-unix.conf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/qconfig.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_ext_libjpeg.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_ext_libpng.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_ext_openxr_loader.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_charts.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_charts_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_chartsqml.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_chartsqml_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_concurrent.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_concurrent_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_core.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_core_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_dbus.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_dbus_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_designer.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_designer_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_designercomponents_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_devicediscovery_support_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_eglfs_kms_gbm_support_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_example_icons_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_examples_asset_downloader_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_fb_support_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_gui.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_gui_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_harfbuzz_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_help.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_help_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_input_support_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_jpeg_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_kms_support_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsanimation.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsanimation_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsfolderlistmodel.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsfolderlistmodel_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsplatform.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsplatform_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsqmlmodels.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsqmlmodels_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssettings.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssettings_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssharedimage.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssharedimage_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labswavefrontmesh.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labswavefrontmesh_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_linguist.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimedia.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimedia_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediaquick_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediatestlibprivate_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_network.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_network_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_opengl.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_opengl_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_openglwidgets.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_openglwidgets_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_packetprotocol_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_png_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_printsupport.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_printsupport_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qdoccatch_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qdoccatchconversions_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qdoccatchgenerators_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qml.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qml_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlassetdownloader.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlassetdownloader_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcompiler.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcompiler_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcore.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcore_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmldebug_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmldom_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlintegration.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlintegration_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmllocalstorage.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmllocalstorage_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlls_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmeta.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmeta_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlnetwork.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlnetwork_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltest.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltest_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltoolingsettings_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltyperegistrar_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlxmllistmodel.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlxmllistmodel_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3d.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3d_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetutils.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetutils_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3deffects.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3deffects_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dglslparser_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpers.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpers_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpersimpl.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpersimpl_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3diblbaker.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3diblbaker_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticleeffects.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticleeffects_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticles.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticles_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dspatialaudio_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dxr.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dxr_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basic.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basic_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basicstyleimpl.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basicstyleimpl_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fluentwinui3styleimpl.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fluentwinui3styleimpl_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusion.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusion_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusionstyleimpl.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusionstyleimpl_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imagine.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imagine_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imaginestyleimpl.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imaginestyleimpl_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2impl.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2impl_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2material.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2material_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2materialstyleimpl.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2materialstyleimpl_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universal.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universal_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universalstyleimpl.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universalstyleimpl_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrolstestutilsprivate_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2quickimpl.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2quickimpl_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2utils.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2utils_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickeffects_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicklayouts.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicklayouts_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickparticles_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickshapes_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktestutilsprivate_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimeline.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimeline_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimelineblendtrees.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimelineblendtrees_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickvectorimage.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickvectorimage_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickvectorimagegenerator_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_shadertools.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_shadertools_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_spatialaudio.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_spatialaudio_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_sql.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_sql_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svg.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svg_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svgwidgets.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svgwidgets_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_testlib.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_testlib_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_tools_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_uiplugin.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_uitools.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_uitools_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_wayland_egl_client_hw_integration_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_waylandclient.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_waylandclient_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_waylandglobal_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_widgets.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_widgets_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_wl_shell_integration_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_xml.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_xml_private.pri:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/qt_functions.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/qt_config.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/linux-g++/qmake.conf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/spec_post.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/spec_pre.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/unix.conf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/linux.conf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/sanitize.conf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/gcc-base.conf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/gcc-base-unix.conf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/g++-base.conf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/common/g++-unix.conf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/qconfig.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_ext_libjpeg.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_ext_libpng.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_ext_openxr_loader.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_charts.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_charts_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_chartsqml.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_chartsqml_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_concurrent.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_concurrent_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_core.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_core_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_dbus.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_dbus_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_designer.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_designer_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_designercomponents_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_devicediscovery_support_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_eglfs_kms_gbm_support_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_example_icons_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_examples_asset_downloader_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_fb_support_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_gui.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_gui_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_harfbuzz_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_help.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_help_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_input_support_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_jpeg_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_kms_support_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsanimation.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsanimation_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsfolderlistmodel.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsfolderlistmodel_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsplatform.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsplatform_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsqmlmodels.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labsqmlmodels_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssettings.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssettings_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssharedimage.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labssharedimage_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labswavefrontmesh.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_labswavefrontmesh_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_linguist.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimedia.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimedia_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediaquick_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediatestlibprivate_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_network.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_network_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_opengl.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_opengl_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_openglwidgets.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_openglwidgets_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_packetprotocol_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_png_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_printsupport.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_printsupport_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qdoccatch_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qdoccatchconversions_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qdoccatchgenerators_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qml.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qml_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlassetdownloader.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlassetdownloader_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcompiler.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcompiler_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcore.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlcore_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmldebug_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmldom_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlintegration.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlintegration_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmllocalstorage.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmllocalstorage_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlls_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmeta.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmeta_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlnetwork.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlnetwork_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltest.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltest_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltoolingsettings_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmltyperegistrar_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlxmllistmodel.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_qmlxmllistmodel_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3d.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3d_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetutils.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetutils_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3deffects.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3deffects_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dglslparser_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpers.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpers_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpersimpl.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dhelpersimpl_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3diblbaker.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3diblbaker_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticleeffects.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticleeffects_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticles.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dparticles_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dspatialaudio_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dxr.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick3dxr_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quick_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basic.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basic_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basicstyleimpl.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2basicstyleimpl_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fluentwinui3styleimpl.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fluentwinui3styleimpl_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusion.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusion_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusionstyleimpl.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2fusionstyleimpl_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imagine.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imagine_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imaginestyleimpl.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2imaginestyleimpl_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2impl.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2impl_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2material.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2material_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2materialstyleimpl.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2materialstyleimpl_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universal.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universal_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universalstyleimpl.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2universalstyleimpl_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickcontrolstestutilsprivate_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2quickimpl.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2quickimpl_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2utils.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickdialogs2utils_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickeffects_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicklayouts.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicklayouts_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickparticles_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickshapes_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktestutilsprivate_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimeline.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimeline_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimelineblendtrees.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quicktimelineblendtrees_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickvectorimage.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickvectorimage_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickvectorimagegenerator_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_shadertools.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_shadertools_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_spatialaudio.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_spatialaudio_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_sql.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_sql_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svg.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svg_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svgwidgets.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_svgwidgets_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_testlib.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_testlib_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_tools_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_uiplugin.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_uitools.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_uitools_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_wayland_egl_client_hw_integration_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_waylandclient.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_waylandclient_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_waylandglobal_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_widgets.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_widgets_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_wl_shell_integration_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_xml.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/modules/qt_lib_xml_private.pri:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/qt_functions.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/qt_config.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/linux-g++/qmake.conf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/spec_post.prf:
 .qmake.stash:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/exclusive_builds.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/toolchain.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/default_pre.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/resolve_config.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/default_post.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/qml_debug.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/warn_on.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/permissions.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/qt.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/resources_functions.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/resources.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/moc.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/unix/opengl.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/uic.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/unix/thread.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/qmake_use.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/file_copies.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/testcase_targets.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/exceptions.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/yacc.prf:
-../../../../Qt/6.8.2/gcc_64/mkspecs/features/lex.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/exclusive_builds.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/toolchain.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/default_pre.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/resolve_config.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/default_post.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/qml_debug.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/warn_on.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/permissions.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/qt.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/resources_functions.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/resources.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/moc.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/unix/opengl.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/uic.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/unix/thread.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/qmake_use.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/file_copies.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/testcase_targets.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/exceptions.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/yacc.prf:
+/home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/lex.prf:
 ../../qtui.pro:
 ../../res.qrc:
 ../../qml.qrc:
-../../../../Qt/6.8.2/gcc_64/lib/libQt6Widgets.prl:
-../../../../Qt/6.8.2/gcc_64/lib/libQt6QuickControls2.prl:
-../../../../Qt/6.8.2/gcc_64/lib/libQt6Quick.prl:
-../../../../Qt/6.8.2/gcc_64/lib/libQt6OpenGL.prl:
-../../../../Qt/6.8.2/gcc_64/lib/libQt6Gui.prl:
-../../../../Qt/6.8.2/gcc_64/lib/libQt6QmlMeta.prl:
-../../../../Qt/6.8.2/gcc_64/lib/libQt6QmlModels.prl:
-../../../../Qt/6.8.2/gcc_64/lib/libQt6QmlWorkerScript.prl:
-../../../../Qt/6.8.2/gcc_64/lib/libQt6Qml.prl:
-../../../../Qt/6.8.2/gcc_64/lib/libQt6Network.prl:
-../../../../Qt/6.8.2/gcc_64/lib/libQt6Core.prl:
+/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6Widgets.prl:
+/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6QuickControls2.prl:
+/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6Quick.prl:
+/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6OpenGL.prl:
+/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6Gui.prl:
+/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6QmlMeta.prl:
+/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6QmlModels.prl:
+/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6QmlWorkerScript.prl:
+/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6Qml.prl:
+/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6Network.prl:
+/home/strongfood/Qt/6.8.2/gcc_64/lib/libQt6Core.prl:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ../../qtui.pro -spec linux-g++ CONFIG+=debug CONFIG+=qml_debug
 
@@ -839,7 +839,7 @@ distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents ../../res.qrc ../../qml.qrc $(DISTDIR)/
-	$(COPY_FILE) --parents ../../../../Qt/6.8.2/gcc_64/mkspecs/features/data/dummy.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents /home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/data/dummy.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../../mainwindow.h ../../hexapodconnection.h ../../hexapodprotocol.h ../../hexapodvisualization.h ../../hexapodcontext.h $(DISTDIR)/
 	$(COPY_FILE) --parents ../../main.cpp ../../mainwindow.cpp ../../hexapodconnection.cpp ../../hexapodprotocol.cpp ../../hexapodvisualization.cpp ../../hexapodcontext.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../../mainwindow.ui $(DISTDIR)/
@@ -871,7 +871,7 @@ compiler_rcc_make_all: qrc_res.cpp qrc_qml.cpp
 compiler_rcc_clean:
 	-$(DEL_FILE) qrc_res.cpp qrc_qml.cpp
 qrc_res.cpp: ../../res.qrc \
-		../../../../Qt/6.8.2/gcc_64/libexec/rcc \
+		/home/strongfood/Qt/6.8.2/gcc_64/libexec/rcc \
 		../../mainwindow.ui \
 		../../styles/hexapod_dark.qss \
 		../../styles/hexapod.qss \
@@ -886,7 +886,7 @@ qrc_res.cpp: ../../res.qrc \
 	$(HOME)/Qt/6.8.2/gcc_64/libexec/rcc -name res ../../res.qrc -o qrc_res.cpp
 
 qrc_qml.cpp: ../../qml.qrc \
-		../../../../Qt/6.8.2/gcc_64/libexec/rcc \
+		/home/strongfood/Qt/6.8.2/gcc_64/libexec/rcc \
 		../../components/StatusBar.qml \
 		../../components/ControlPanel.qml \
 		../../components/VisualizationView.qml \
@@ -899,745 +899,745 @@ qrc_qml.cpp: ../../qml.qrc \
 compiler_moc_predefs_make_all: moc_predefs.h
 compiler_moc_predefs_clean:
 	-$(DEL_FILE) moc_predefs.h
-moc_predefs.h: ../../../../Qt/6.8.2/gcc_64/mkspecs/features/data/dummy.cpp
-	g++ -pipe -g -std=gnu++1z -Wall -Wextra -fPIC -dM -E -o moc_predefs.h ../../../../Qt/6.8.2/gcc_64/mkspecs/features/data/dummy.cpp
+moc_predefs.h: /home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/data/dummy.cpp
+	g++ -pipe -g -std=gnu++1z -Wall -Wextra -fPIC -dM -E -o moc_predefs.h /home/strongfood/Qt/6.8.2/gcc_64/mkspecs/features/data/dummy.cpp
 
 compiler_moc_header_make_all: moc_mainwindow.cpp moc_hexapodconnection.cpp moc_hexapodvisualization.cpp moc_hexapodcontext.cpp
 compiler_moc_header_clean:
 	-$(DEL_FILE) moc_mainwindow.cpp moc_hexapodconnection.cpp moc_hexapodvisualization.cpp moc_hexapodcontext.cpp
 moc_mainwindow.cpp: ../../mainwindow.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QMainWindow \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qmainwindow.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtguiglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtgui-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtguiexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgets-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qwidget.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qwindowdefs.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmargins.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qaction.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qkeysequence.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qicon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsize.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpixmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpaintdevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrect.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpoint.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qcolor.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qrgb.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qrgba64.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qimage.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpixelformat.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtransform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpolygon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qregion.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qspan.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20iterator.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qline.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qset.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpalette.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qbrush.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qfont.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qfontmetrics.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qfontinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qsizepolicy.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qcursor.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qbitmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qevent.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qeventpoint.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qvector2d.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qvectornd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpointingdevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qinputdevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qscreen.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QList \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QRect \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QSize \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QSizeF \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/QTransform \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnativeinterface.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qscreen_platform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qguiapplication.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdeadlinetimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qelapsedtimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qeventloop.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication_platform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfuture.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfutureinterface.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmutex.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtsan_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qresultstore.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfuture_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qthreadpool.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qthread.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrunnable.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qexception.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpromise.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qinputmethod.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qguiapplication_platform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtabwidget.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QTimer \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/QKeyEvent \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QSettings \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsettings.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QProgressDialog \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qprogressdialog.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qdialog.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/QMainWindow \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qmainwindow.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtguiglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtgui-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtguiexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgets-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qwidget.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qwindowdefs.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmargins.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qaction.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qkeysequence.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qicon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsize.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpixmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpaintdevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrect.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpoint.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qcolor.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qrgb.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qrgba64.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qimage.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpixelformat.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtransform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpolygon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qregion.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qspan.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20iterator.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qline.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qset.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpalette.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qbrush.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qfont.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qfontmetrics.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qfontinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qsizepolicy.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qcursor.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qbitmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qevent.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qeventpoint.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qvector2d.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qvectornd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpointingdevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qinputdevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qscreen.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QList \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QRect \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QSize \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QSizeF \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/QTransform \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnativeinterface.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qscreen_platform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qguiapplication.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdeadlinetimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qelapsedtimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qeventloop.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication_platform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfuture.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfutureinterface.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmutex.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtsan_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qresultstore.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfuture_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qthreadpool.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qthread.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrunnable.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qexception.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpromise.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qinputmethod.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qguiapplication_platform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtabwidget.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QTimer \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/QKeyEvent \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QSettings \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsettings.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/QProgressDialog \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qprogressdialog.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qdialog.h \
 		../../hexapodconnection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/QTcpSocket \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtcpsocket.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qabstractsocket.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qhostaddress.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/QHostInfo \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qhostinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonDocument \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsondocument.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QPair \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/QTcpSocket \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtcpsocket.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qabstractsocket.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qhostaddress.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/QHostInfo \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qhostinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonDocument \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsondocument.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QPair \
 		../../hexapodcontext.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QString \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/QHostAddress \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QDateTime \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QString \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/QHostAddress \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QDateTime \
 		moc_predefs.h \
 		../../../../Qt/6.8.2/gcc_64/libexec/moc
 	$(HOME)/Qt/6.8.2/gcc_64/libexec/moc $(DEFINES) --include $(HOME)/Projects/qt-application-hexapod/build/Desktop_Qt_6_8_2-Debug/moc_predefs.h -I$(HOME)/Qt/6.8.2/gcc_64/mkspecs/linux-g++ -I$(HOME)/Projects/qt-application-hexapod -I$(HOME)/Qt/6.8.2/gcc_64/include -I$(HOME)/Qt/6.8.2/gcc_64/include/QtWidgets -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQuickControls2 -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQuick -I$(HOME)/Qt/6.8.2/gcc_64/include/QtOpenGL -I$(HOME)/Qt/6.8.2/gcc_64/include/QtGui -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQmlMeta -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQmlModels -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQmlWorkerScript -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQml -I$(HOME)/Qt/6.8.2/gcc_64/include/QtNetwork -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQmlIntegration -I$(HOME)/Qt/6.8.2/gcc_64/include/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/gcc/x86_64-linux-gnu/13/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../mainwindow.h -o moc_mainwindow.cpp
 
 moc_hexapodconnection.cpp: ../../hexapodconnection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/QTcpSocket \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtcpsocket.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qabstractsocket.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qhostaddress.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qset.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QTimer \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/QHostInfo \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qhostinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonDocument \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsondocument.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QPair \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/QTcpSocket \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtcpsocket.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qabstractsocket.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qhostaddress.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qset.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QTimer \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/QHostInfo \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qhostinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonDocument \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsondocument.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QPair \
 		moc_predefs.h \
 		../../../../Qt/6.8.2/gcc_64/libexec/moc
 	$(HOME)/Qt/6.8.2/gcc_64/libexec/moc $(DEFINES) --include $(HOME)/Projects/qt-application-hexapod/build/Desktop_Qt_6_8_2-Debug/moc_predefs.h -I$(HOME)/Qt/6.8.2/gcc_64/mkspecs/linux-g++ -I$(HOME)/Projects/qt-application-hexapod -I$(HOME)/Qt/6.8.2/gcc_64/include -I$(HOME)/Qt/6.8.2/gcc_64/include/QtWidgets -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQuickControls2 -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQuick -I$(HOME)/Qt/6.8.2/gcc_64/include/QtOpenGL -I$(HOME)/Qt/6.8.2/gcc_64/include/QtGui -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQmlMeta -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQmlModels -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQmlWorkerScript -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQml -I$(HOME)/Qt/6.8.2/gcc_64/include/QtNetwork -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQmlIntegration -I$(HOME)/Qt/6.8.2/gcc_64/include/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/gcc/x86_64-linux-gnu/13/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../hexapodconnection.h -o moc_hexapodconnection.cpp
 
 moc_hexapodvisualization.cpp: ../../hexapodvisualization.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QWidget \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qwidget.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtguiglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtgui-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtguiexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgets-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qwindowdefs.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmargins.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qaction.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qkeysequence.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qicon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsize.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpixmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpaintdevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrect.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpoint.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qcolor.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qrgb.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qrgba64.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qimage.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpixelformat.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtransform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpolygon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qregion.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qspan.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20iterator.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qline.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qset.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpalette.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qbrush.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qfont.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qfontmetrics.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qfontinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qsizepolicy.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qcursor.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qbitmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qevent.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qeventpoint.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qvector2d.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qvectornd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpointingdevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qinputdevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qscreen.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QList \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QRect \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QSize \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QSizeF \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/QTransform \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnativeinterface.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qscreen_platform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qguiapplication.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdeadlinetimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qelapsedtimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qeventloop.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication_platform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfuture.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfutureinterface.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmutex.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtsan_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qresultstore.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfuture_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qthreadpool.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qthread.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrunnable.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qexception.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpromise.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qinputmethod.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qguiapplication_platform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/QPainter \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpainter.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtextoption.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpen.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QTimer \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/QWidget \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qwidget.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtguiglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtgui-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtguiexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgets-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qwindowdefs.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmargins.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qaction.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qkeysequence.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qicon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsize.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpixmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpaintdevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrect.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpoint.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qcolor.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qrgb.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qrgba64.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qimage.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpixelformat.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtransform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpolygon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qregion.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qspan.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20iterator.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qline.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qset.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpalette.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qbrush.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qfont.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qfontmetrics.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qfontinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qsizepolicy.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qcursor.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qbitmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qevent.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qeventpoint.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qvector2d.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qvectornd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpointingdevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qinputdevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qscreen.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QList \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QRect \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QSize \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QSizeF \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/QTransform \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnativeinterface.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qscreen_platform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qguiapplication.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdeadlinetimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qelapsedtimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qeventloop.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication_platform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfuture.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfutureinterface.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmutex.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtsan_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qresultstore.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfuture_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qthreadpool.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qthread.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrunnable.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qexception.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpromise.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qinputmethod.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qguiapplication_platform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/QPainter \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpainter.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtextoption.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpen.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QTimer \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h \
 		../../hexapodprotocol.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonArray \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonarray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QDateTime \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonArray \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonarray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QDateTime \
 		moc_predefs.h \
 		../../../../Qt/6.8.2/gcc_64/libexec/moc
 	$(HOME)/Qt/6.8.2/gcc_64/libexec/moc $(DEFINES) --include $(HOME)/Projects/qt-application-hexapod/build/Desktop_Qt_6_8_2-Debug/moc_predefs.h -I$(HOME)/Qt/6.8.2/gcc_64/mkspecs/linux-g++ -I$(HOME)/Projects/qt-application-hexapod -I$(HOME)/Qt/6.8.2/gcc_64/include -I$(HOME)/Qt/6.8.2/gcc_64/include/QtWidgets -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQuickControls2 -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQuick -I$(HOME)/Qt/6.8.2/gcc_64/include/QtOpenGL -I$(HOME)/Qt/6.8.2/gcc_64/include/QtGui -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQmlMeta -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQmlModels -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQmlWorkerScript -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQml -I$(HOME)/Qt/6.8.2/gcc_64/include/QtNetwork -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQmlIntegration -I$(HOME)/Qt/6.8.2/gcc_64/include/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/gcc/x86_64-linux-gnu/13/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../hexapodvisualization.h -o moc_hexapodvisualization.cpp
 
 moc_hexapodcontext.cpp: ../../hexapodcontext.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QString \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/QHostAddress \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qhostaddress.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qabstractsocket.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qset.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/QTcpSocket \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtcpsocket.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QTimer \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonDocument \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsondocument.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QDateTime \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QString \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/QHostAddress \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qhostaddress.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qabstractsocket.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qset.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/QTcpSocket \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtcpsocket.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QTimer \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonDocument \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsondocument.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QDateTime \
 		moc_predefs.h \
 		../../../../Qt/6.8.2/gcc_64/libexec/moc
 	$(HOME)/Qt/6.8.2/gcc_64/libexec/moc $(DEFINES) --include $(HOME)/Projects/qt-application-hexapod/build/Desktop_Qt_6_8_2-Debug/moc_predefs.h -I$(HOME)/Qt/6.8.2/gcc_64/mkspecs/linux-g++ -I$(HOME)/Projects/qt-application-hexapod -I$(HOME)/Qt/6.8.2/gcc_64/include -I$(HOME)/Qt/6.8.2/gcc_64/include/QtWidgets -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQuickControls2 -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQuick -I$(HOME)/Qt/6.8.2/gcc_64/include/QtOpenGL -I$(HOME)/Qt/6.8.2/gcc_64/include/QtGui -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQmlMeta -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQmlModels -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQmlWorkerScript -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQml -I$(HOME)/Qt/6.8.2/gcc_64/include/QtNetwork -I$(HOME)/Qt/6.8.2/gcc_64/include/QtQmlIntegration -I$(HOME)/Qt/6.8.2/gcc_64/include/QtCore -I. -I/usr/include/c++/13 -I/usr/include/x86_64-linux-gnu/c++/13 -I/usr/include/c++/13/backward -I/usr/lib/gcc/x86_64-linux-gnu/13/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../../hexapodcontext.h -o moc_hexapodcontext.cpp
@@ -1650,203 +1650,203 @@ compiler_uic_make_all: ui_mainwindow.h
 compiler_uic_clean:
 	-$(DEL_FILE) ui_mainwindow.h
 ui_mainwindow.h: ../../mainwindow.ui \
-		../../../../Qt/6.8.2/gcc_64/libexec/uic \
+		/home/strongfood/Qt/6.8.2/gcc_64/libexec/uic \
 		../../hexapodvisualization.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QWidget \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qwidget.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtguiglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtgui-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtguiexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgets-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qwindowdefs.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmargins.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qaction.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qkeysequence.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qicon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsize.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpixmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpaintdevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrect.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpoint.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qcolor.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qrgb.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qrgba64.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qimage.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpixelformat.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtransform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpolygon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qregion.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qspan.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20iterator.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qline.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qset.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpalette.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qbrush.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qfont.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qfontmetrics.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qfontinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qsizepolicy.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qcursor.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qbitmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qevent.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qeventpoint.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qvector2d.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qvectornd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpointingdevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qinputdevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qscreen.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QList \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QRect \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QSize \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QSizeF \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/QTransform \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnativeinterface.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qscreen_platform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qguiapplication.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdeadlinetimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qelapsedtimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qeventloop.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication_platform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfuture.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfutureinterface.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmutex.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtsan_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qresultstore.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfuture_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qthreadpool.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qthread.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrunnable.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qexception.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpromise.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qinputmethod.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qguiapplication_platform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/QPainter \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpainter.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtextoption.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpen.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QTimer \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/QWidget \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qwidget.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtguiglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtgui-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtguiexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgets-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qwindowdefs.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmargins.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qaction.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qkeysequence.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qicon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsize.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpixmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpaintdevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrect.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpoint.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qcolor.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qrgb.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qrgba64.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qimage.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpixelformat.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtransform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpolygon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qregion.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qspan.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20iterator.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qline.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qset.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpalette.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qbrush.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qfont.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qfontmetrics.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qfontinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qsizepolicy.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qcursor.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qbitmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qevent.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qeventpoint.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qvector2d.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qvectornd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpointingdevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qinputdevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qscreen.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QList \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QRect \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QSize \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QSizeF \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/QTransform \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnativeinterface.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qscreen_platform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qguiapplication.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdeadlinetimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qelapsedtimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qeventloop.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication_platform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfuture.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfutureinterface.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmutex.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtsan_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qresultstore.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfuture_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qthreadpool.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qthread.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrunnable.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qexception.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpromise.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qinputmethod.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qguiapplication_platform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/QPainter \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpainter.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtextoption.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpen.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QTimer \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h \
 		../../hexapodprotocol.h \
 		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
 		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
@@ -1872,1206 +1872,1165 @@ compiler_clean: compiler_rcc_clean compiler_moc_predefs_clean compiler_moc_heade
 
 ####### Compile
 
-main.o: ../../main.cpp ../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QApplication \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qapplication.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtguiglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtgui-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtguiexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgets-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdeadlinetimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qelapsedtimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qeventloop.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnativeinterface.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qset.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication_platform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfuture.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfutureinterface.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmutex.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtsan_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qresultstore.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfuture_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qthreadpool.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qthread.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrunnable.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qexception.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpromise.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qwindowdefs.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpoint.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsize.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmargins.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qcursor.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qbitmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpixmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpaintdevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrect.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qcolor.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qrgb.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qrgba64.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qimage.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpixelformat.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtransform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpolygon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qregion.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qspan.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20iterator.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qline.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qguiapplication.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qinputmethod.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qguiapplication_platform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QMessageBox \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qmessagebox.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qdialog.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qwidget.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qaction.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qkeysequence.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qicon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpalette.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qbrush.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qfont.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qfontmetrics.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qfontinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qsizepolicy.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qevent.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qeventpoint.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qvector2d.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qvectornd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpointingdevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qinputdevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qscreen.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QList \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QRect \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QSize \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QSizeF \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/QTransform \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qscreen_platform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qdialogbuttonbox.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QSettings \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsettings.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QFile \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfile.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfiledevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QDir \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdir.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdirlisting.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfileinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtimezone.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QSplashScreen \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qsplashscreen.h \
+main.o: ../../main.cpp /home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/QApplication \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qapplication.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtguiglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtgui-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtguiexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgets-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdeadlinetimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qelapsedtimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qeventloop.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnativeinterface.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qset.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication_platform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfuture.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfutureinterface.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmutex.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtsan_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qresultstore.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfuture_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qthreadpool.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qthread.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrunnable.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qexception.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpromise.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qwindowdefs.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpoint.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsize.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmargins.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qcursor.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qbitmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpixmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpaintdevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrect.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qcolor.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qrgb.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qrgba64.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qimage.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpixelformat.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtransform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpolygon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qregion.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qspan.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20iterator.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qline.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qguiapplication.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qinputmethod.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qguiapplication_platform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/QMessageBox \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qmessagebox.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qdialog.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qwidget.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qaction.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qkeysequence.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qicon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpalette.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qbrush.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qfont.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qfontmetrics.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qfontinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qsizepolicy.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qevent.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qeventpoint.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qvector2d.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qvectornd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpointingdevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qinputdevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qscreen.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QList \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QRect \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QSize \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QSizeF \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/QTransform \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qscreen_platform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qdialogbuttonbox.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QSettings \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsettings.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QFile \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfile.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfiledevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QDir \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdir.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdirlisting.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfileinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtimezone.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/QSplashScreen \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qsplashscreen.h \
 		../../mainwindow.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QMainWindow \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qmainwindow.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtabwidget.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QTimer \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/QKeyEvent \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QProgressDialog \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qprogressdialog.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/QMainWindow \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qmainwindow.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtabwidget.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QTimer \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/QKeyEvent \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/QProgressDialog \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qprogressdialog.h \
 		../../hexapodconnection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/QTcpSocket \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtcpsocket.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qabstractsocket.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qhostaddress.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/QHostInfo \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qhostinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonDocument \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsondocument.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QPair \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/QTcpSocket \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtcpsocket.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qabstractsocket.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qhostaddress.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/QHostInfo \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qhostinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonDocument \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsondocument.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QPair \
 		../../hexapodcontext.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QString \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/QHostAddress \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QDateTime
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QString \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/QHostAddress \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QDateTime
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../../main.cpp
 
-mainwindow.o: ../../mainwindow.cpp ../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QMessageBox \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qmessagebox.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtguiglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtgui-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtguiexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgets-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qdialog.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qwidget.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qwindowdefs.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmargins.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qaction.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qkeysequence.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qicon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsize.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpixmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpaintdevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrect.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpoint.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qcolor.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qrgb.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qrgba64.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qimage.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpixelformat.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtransform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpolygon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qregion.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qspan.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20iterator.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qline.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qset.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpalette.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qbrush.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qfont.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qfontmetrics.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qfontinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qsizepolicy.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qcursor.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qbitmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qevent.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qeventpoint.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qvector2d.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qvectornd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpointingdevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qinputdevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qscreen.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QList \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QRect \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QSize \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QSizeF \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/QTransform \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnativeinterface.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qscreen_platform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qguiapplication.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdeadlinetimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qelapsedtimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qeventloop.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication_platform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfuture.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfutureinterface.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmutex.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtsan_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qresultstore.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfuture_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qthreadpool.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qthread.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrunnable.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qexception.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpromise.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qinputmethod.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qguiapplication_platform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qdialogbuttonbox.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QDateTime \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QFile \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfile.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfiledevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QColorDialog \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qcolordialog.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QInputDialog \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qinputdialog.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qlineedit.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qframe.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtextcursor.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtextdocument.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtextformat.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpen.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtextoption.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/QCloseEvent \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/QKeySequence \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/QShortcut \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qshortcut.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QStyle \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qstyle.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/QAction \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QComboBox \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qcombobox.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qstyleoption.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qabstractspinbox.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qvalidator.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qslider.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qabstractslider.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtabbar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtabwidget.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qrubberband.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qabstractitemmodel.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QListWidget \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qlistwidget.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qlistview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qabstractitemview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qabstractscrollarea.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qitemselectionmodel.h \
+mainwindow.o: ../../mainwindow.cpp /home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/QMessageBox \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qmessagebox.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtguiglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtgui-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtguiexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgets-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qdialog.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qwidget.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qwindowdefs.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmargins.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qaction.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qkeysequence.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qicon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsize.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpixmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpaintdevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrect.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpoint.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qcolor.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qrgb.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qrgba64.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qimage.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpixelformat.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtransform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpolygon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qregion.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qspan.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20iterator.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qline.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qset.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpalette.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qbrush.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qfont.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qfontmetrics.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qfontinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qsizepolicy.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qcursor.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qbitmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qevent.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qeventpoint.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qvector2d.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qvectornd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpointingdevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qinputdevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qscreen.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QList \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QRect \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QSize \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QSizeF \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/QTransform \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnativeinterface.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qscreen_platform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qguiapplication.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdeadlinetimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qelapsedtimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qeventloop.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication_platform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfuture.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfutureinterface.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmutex.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtsan_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qresultstore.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfuture_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qthreadpool.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qthread.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrunnable.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qexception.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpromise.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qinputmethod.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qguiapplication_platform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qdialogbuttonbox.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QDateTime \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QFile \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfile.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfiledevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/QColorDialog \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qcolordialog.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/QInputDialog \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qinputdialog.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qlineedit.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qframe.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtextcursor.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtextdocument.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtextformat.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpen.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtextoption.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/QCloseEvent \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/QKeySequence \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/QShortcut \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qshortcut.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/QStyle \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qstyle.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/QAction \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/QComboBox \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qcombobox.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qstyleoption.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qabstractspinbox.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qvalidator.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qslider.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qabstractslider.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtabbar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtabwidget.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qrubberband.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qabstractitemmodel.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/QListWidget \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qlistwidget.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qlistview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qabstractitemview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qabstractscrollarea.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qitemselectionmodel.h \
 		../../hexapodprotocol.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonArray \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonarray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonArray \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonarray.h \
 		../../mainwindow.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QMainWindow \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qmainwindow.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QTimer \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/QKeyEvent \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QSettings \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsettings.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QProgressDialog \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qprogressdialog.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/QMainWindow \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qmainwindow.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QTimer \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/QKeyEvent \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QSettings \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsettings.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/QProgressDialog \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qprogressdialog.h \
 		../../hexapodconnection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/QTcpSocket \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtcpsocket.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qabstractsocket.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qhostaddress.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/QHostInfo \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qhostinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonDocument \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsondocument.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QPair \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/QTcpSocket \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtcpsocket.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qabstractsocket.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qhostaddress.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/QHostInfo \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qhostinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonDocument \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsondocument.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QPair \
 		../../hexapodcontext.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QString \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/QHostAddress \
-		ui_mainwindow.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QVariant \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QApplication \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qapplication.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QCheckBox \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qcheckbox.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qabstractbutton.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QFormLayout \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qformlayout.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QLayout \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qlayout.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qlayoutitem.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qboxlayout.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qgridlayout.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QGridLayout \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QGroupBox \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qgroupbox.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QHBoxLayout \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QLabel \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qlabel.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpicture.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QLineEdit \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QMenu \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qmenu.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QMenuBar \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qmenubar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QPushButton \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qpushbutton.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QSlider \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QSpinBox \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qspinbox.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QSplitter \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qsplitter.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QStatusBar \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qstatusbar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QTextEdit \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtextedit.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QVBoxLayout \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QWidget \
-		../../hexapodvisualization.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/QPainter \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpainter.h
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QString \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/QHostAddress \
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o ../../mainwindow.cpp
 
-hexapodconnection.o: ../../hexapodconnection.cpp ../../../../Qt/6.8.2/gcc_64/include/QtNetwork/QHostAddress \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qhostaddress.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qabstractsocket.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qset.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonArray \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonarray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/QNetworkInterface \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qnetworkinterface.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QDebug \
+hexapodconnection.o: ../../hexapodconnection.cpp /home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/QHostAddress \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qhostaddress.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qabstractsocket.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qset.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonArray \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonarray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/QNetworkInterface \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qnetworkinterface.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QDebug \
 		../../hexapodconnection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/QTcpSocket \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtcpsocket.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QTimer \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/QHostInfo \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qhostinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonDocument \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsondocument.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QPair
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/QTcpSocket \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtcpsocket.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QTimer \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/QHostInfo \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qhostinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonDocument \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsondocument.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QPair
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o hexapodconnection.o ../../hexapodconnection.cpp
 
 hexapodprotocol.o: ../../hexapodprotocol.cpp ../../hexapodprotocol.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qset.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonArray \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonarray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QDateTime
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qset.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonArray \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonarray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QDateTime
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o hexapodprotocol.o ../../hexapodprotocol.cpp
 
-hexapodvisualization.o: ../../hexapodvisualization.cpp ../../../../Qt/6.8.2/gcc_64/include/QtCore/QDebug \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qset.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/QPainterPath \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpainterpath.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtguiglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtgui-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtguiexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtransform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpolygon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpoint.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrect.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmargins.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsize.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qregion.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qwindowdefs.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qspan.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20iterator.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qline.h \
+hexapodvisualization.o: ../../hexapodvisualization.cpp /home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QDebug \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qset.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/QPainterPath \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpainterpath.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtguiglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtgui-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtguiexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtransform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpolygon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpoint.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrect.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmargins.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsize.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qregion.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qwindowdefs.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qspan.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20iterator.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qline.h \
 		../../hexapodvisualization.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/QWidget \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qwidget.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgets-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qaction.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qkeysequence.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qicon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpixmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpaintdevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qcolor.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qrgb.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qrgba64.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qimage.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpixelformat.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpalette.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qbrush.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qfont.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qfontmetrics.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qfontinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtWidgets/qsizepolicy.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qcursor.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qbitmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qevent.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qeventpoint.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qvector2d.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qvectornd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpointingdevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qinputdevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qscreen.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QList \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QRect \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QSize \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QSizeF \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/QTransform \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnativeinterface.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qscreen_platform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qguiapplication.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdeadlinetimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qelapsedtimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qeventloop.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication_platform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfuture.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfutureinterface.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmutex.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtsan_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qresultstore.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfuture_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qthreadpool.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qthread.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrunnable.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qexception.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpromise.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qinputmethod.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qguiapplication_platform.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/QPainter \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpainter.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qtextoption.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtGui/qpen.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QTimer \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/QWidget \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qwidget.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgets-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qaction.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qkeysequence.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qicon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpixmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpaintdevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qcolor.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qrgb.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qrgba64.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qimage.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpixelformat.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpalette.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qbrush.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qfont.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qfontmetrics.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qfontinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtWidgets/qsizepolicy.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qcursor.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qbitmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qevent.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qeventpoint.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qvector2d.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qvectornd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpointingdevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qinputdevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qscreen.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QList \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QRect \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QSize \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QSizeF \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/QTransform \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnativeinterface.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qscreen_platform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qguiapplication.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdeadlinetimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qelapsedtimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qeventloop.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication_platform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfuture.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfutureinterface.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmutex.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtsan_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qresultstore.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfuture_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qthreadpool.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qthread.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrunnable.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qexception.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpromise.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qinputmethod.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qguiapplication_platform.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/QPainter \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpainter.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qtextoption.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtGui/qpen.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QTimer \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h \
 		../../hexapodprotocol.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonArray \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonarray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QDateTime
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonArray \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonarray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QDateTime
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o hexapodvisualization.o ../../hexapodvisualization.cpp
 
-hexapodcontext.o: ../../hexapodcontext.cpp ../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonDocument \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsondocument.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qset.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QJsonArray \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qjsonarray.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QDateTime \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QDebug \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QOverload \
+hexapodcontext.o: ../../hexapodcontext.cpp /home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonDocument \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsondocument.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontainerinfo.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qset.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QJsonArray \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qjsonarray.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QDateTime \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QDebug \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QOverload \
 		../../hexapodcontext.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QObject \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QString \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/QHostAddress \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qhostaddress.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkexports.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qabstractsocket.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/QTcpSocket \
-		../../../../Qt/6.8.2/gcc_64/include/QtNetwork/qtcpsocket.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/QTimer \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
-		../../../../Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QObject \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QString \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/QHostAddress \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qhostaddress.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtnetworkexports.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qabstractsocket.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/QTcpSocket \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtNetwork/qtcpsocket.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/QTimer \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
+		/home/strongfood/Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o hexapodcontext.o ../../hexapodcontext.cpp
 
 qrc_res.o: qrc_res.cpp 
